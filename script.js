@@ -36,7 +36,6 @@ function scrollToBottomOfResults() {
 }
 
 function send(message) {
-	console.log("User==:", user)
 	console.log("User mesage:", message)
 	$.ajax({
 		url: 'http://40.80.85.158/webhooks/rest/webhook',
