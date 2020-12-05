@@ -39,7 +39,7 @@ function send(message) {
 	console.log("User==:", user)
 	console.log("User mesage:", message)
 	$.ajax({
-		url: 'http://aayush240.tech/webhooks/rest/webhook',
+		url: 'http://40.80.85.158/webhooks/rest/webhook',
 		type: 'POST',
 		contentType: 'application/json',
 		data: JSON.stringify({
