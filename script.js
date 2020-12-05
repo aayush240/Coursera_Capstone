@@ -36,7 +36,7 @@ function scrollToBottomOfResults() {
 }
 
 function send(message) {
-	console.log("User mesage:", message)
+	console.log("User mesage1:", message)
 	$.ajax({
 		url: 'http://40.80.85.158/webhooks/rest/webhook',
 		type: 'POST',
