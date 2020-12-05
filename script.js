@@ -44,7 +44,7 @@ function send(message) {
 		contentType: 'application/json',
 		data: JSON.stringify({
 			"message": message,
-			"sender": user
+			"sender": "aaaaa"
 		}),
 		success: function (data, textStatus) {
 			if(data != null){
